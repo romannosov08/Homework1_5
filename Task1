@@ -1,0 +1,11 @@
+n=int(input ("Введите количество городов: "))
+town=[]
+k=0
+for i in range(n):
+  a=(input("Введите название города: "))
+  if a in town:
+    k+=2
+    town.append(a)
+  else:
+    town.append(a)
+print("Количество повторяющихся городов: ",k)
