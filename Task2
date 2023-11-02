@@ -1,0 +1,2 @@
+str=input("Введите несколько предложений: ")
+print(str.capitalize())
